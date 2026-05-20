@@ -22,8 +22,8 @@ app.use((req, res, next) => {
 app.use('/users', userRoutes);
 
 try {
-    app.listen(process.env.PORT || 3000, () => {
-        console.log(`Listening to port ${process.env.PORT || 3000}...`);
+    app.listen(process.env.PORT || 4000, () => {
+        console.log(`Listening to port ${process.env.PORT || 4000}...`);
     });
 } catch (e) {
     console.log(e);
